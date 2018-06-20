@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body{
+    font-family: 'Poppins', Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+    color: #111;
+}
+
+.card{
+    background-color: rgb(223, 231, 238);
+}
+.bg-dark{
+    background-color: rgb(11, 19, 36) !important
+}
+.welcome{
+    color: #000;
+}
+.padding{
+    padding-bottom: 1.2rem;
+}
+
+.container{
+    padding: 0.5rem;
+    width: 100%;
+    box-shadow: 0 0 15px rgb(99, 100, 102);
+}
+.navbar{
+    box-shadow: 1px 1px 5px #bbb;
+    top: 0;
+    width: 100%;
+}
+.navbar-nav li{
+    padding-right: 10px;
+}
+.nav-link{
+    font-size: 1.1em !important;
+}
+
+.nav-link:hover{
+    background: rgb(79, 126, 126);
+}
+
+ul li{
+    text-decoration: none;
+}
+a:hover{
+    color: #fff
+}
+
+.display-4, .display-5{
+    text-shadow: 1px 1px 3px #555;
+
+}
+
+@media(max-width:768px){
+    .code{
+        font-size: 60%;
+    }
+    
+    .display-4{
+        font-size: 180%;
+    }
+
+    .display-5{
+        font-size: 140%;
+    }
+    p{
+        font-size: 95%;
+    }
+}
+@media(max-width:576px){
+    p{
+        font-size: 90%;
+    }
+    .code{
+        font-size: 50%;
+    }
+    .github-btn{ 
+        width: 90%;
+        font-size: 80%;
+    }
+
+    .card-title{
+        font-size:120%;
+    }
+    .welcome{
+        font-size: 90%;
+        text-align: justify;
+    }
+
+    .display-4, .display-5{
+        font-size: 150%;
+    }
+
+}
