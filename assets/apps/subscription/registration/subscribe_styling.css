@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    background-image: url(./images/education.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subscribe
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 40px !important;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fff;
+    opacity: .8;
+    text-shadow: 5px 1px 8px #02131667;
+}
+
+
+.container-fluid
+{   
+    width: 85%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(1, 13, 31);
+    background: rgba(1, 13, 31,.9);
+}
+
+.form-box 
+{  
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.input-box 
+{   
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+.input 
+{
+    position: relative;
+    width: 90%;
+    height: 45px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: white;
+    border-bottom: 1px solid rgba(146, 162, 170, 0.767);
+}
+
+.input-text
+{
+    position: absolute;
+    line-height: 40px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    transition: .5s;
+    color: white;
+    opacity: .6;
+}
+
+.focus .input-text
+{
+  transform: translateY(-30px);
+  font-size: 80%;
+  opacity: 1;
+  color: #bb0000;
+  
+}
+
+.focus .fa-lock, .focus .fa-user
+{
+  color: red;
+}
+
+.button
+{   
+    width: 50%;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.07) !important;
+    font-size: 18px;
+    box-shadow: 1px 1px 5px #000; 
+}
+
+.button:hover
+{
+    background-color: rgba(255, 255, 255, 0.103) !important;
+}
+
+.button:hover .fa-sign-in-alt
+{
+  color: red;
+}
+
+.fa-asterisk
+{
+    color: red;
+    font-size: 70%;
+    padding-left: 5px;
+}
+
+.forgot-area
+{
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+#forgot-password, #forgot-username{
+    text-decoration: none;
+    padding: 10px;
+}
+
+#choices 
+{
+    padding-top: 5px;
+    padding-bottom: 60px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.selection
+{
+    position: relative;
+    width: 90%;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #555;
+    border: none;
+    outline: none;
+    color: white;
+    opacity: .5;
+    font-size: .8em;
+    border-bottom: 1px solid rgba(132, 136, 138, 0.767);
+}
+select option{
+    color: white;
+    width: 100%;
+    background: rgba(39, 4, 4, 0.5)
+}
+
+.copy-right cite
+{
+    font-size: 1em;
+    text-transform: lowercase !important;
+    margin-right: 10px;
+}
+
+@media(max-width:600px){
+    #forgot-password, #forgot-username
+    {
+        font-size: 75%;
+        padding-left:0;
+        padding-right: 0; 
+        margin:0;
+    }
+    .selection
+    {
+     width: 100%;
+    }
+    body
+    {
+    font-size: 80%;
+    }
+    
+    .input-box, select option
+    {
+        font-size: 12px;
+    }
+    .subscribe
+    {
+        font-size: 12px;
+    }
+    select option, .input, .container-fluid
+    {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .button
+    {
+      font-size: 12px;
+    }
+}
