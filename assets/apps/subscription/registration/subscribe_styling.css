@@ -51,7 +51,7 @@ body {
 .input 
 {
     position: relative;
-    width: 90%;
+    width: 100%;
     height: 45px;
     background: transparent;
     border: none;
@@ -137,7 +137,7 @@ body {
 .selection
 {
     position: relative;
-    width: 90%;
+    width: 100%;
     height: 40px;
     border-radius: 3px;
     background-color: #555;
@@ -153,7 +153,11 @@ select option{
     width: 100%;
     background: rgba(39, 4, 4, 0.5)
 }
-
+.copy-right
+{  
+    text-align: center !important;
+    padding: 40px;
+}
 .copy-right cite
 {
     font-size: 1em;
