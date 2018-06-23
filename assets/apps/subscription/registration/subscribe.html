@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -13,86 +13,75 @@
 </head>
 
 <body>
-    <div class="row">
-        <div class="col-2">
-            <div class="col-2 input-text">
-                <cite>Code&amp;Succeed</cite>
-                <cite>Bessedik</cite>
-            </div>
-        </div>
-        <!--main content-->
-        <div class="col-8">
-            <div class="container col-8">
-                <div class="container-fluid col-12">
-                    <div class="form-box">
-                        <div class="row">
-                            <div class="col-12">
-                                <!--Title-->
-                                <h4 class="subscribe">
-                                    <small>Eduactional News Letter
-                                        <br>Subscription Form</small>
-                                </h4>
-                            </div>
+    <div class="container">
+        <div class="container-fluid">
+                <div class="col-sm-12 col-md-2">
+                        <div class="input-text">
+                            <p>col-2</p>
                         </div>
-                        <!--Input Form -->
-                        <form action="">
-                            <div class="row">
-                                <!-- Username -->
-                                <div class="col-sm-12">
-                                    <div class="input-box">
-                                        <div class="input-text">
-                                            <i class="fas fa-user"></i> Username
-                                            <i class="fa fa-asterisk"></i>
-                                        </div>
-                                        <input class="input" type="text" name="username" required>
-                                    </div>
+                    </div>
+        </div>
+        <div class="col-sm-12 col-md-8">
+            <div class="container-fluid">
+                <div class="form-box">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--Title-->
+                            <h4 class="subscribe">
+                                <small>Eduactional News Letter
+                                    <br>Subscription Form</small>
+                            </h4>
+                        </div>
+                    </div>
+                    <!--Input Form -->
+                    <div >
+                        <form>
+                            <!-- Username -->
+                            <div class="input-box">
+                                <div class="input-text">
+                                    <i class="fas fa-user"></i> Username
+                                    <i class="fa fa-asterisk"></i>
                                 </div>
-                                <!-- Password -->
-                                <div class="col-sm-12">
-                                    <div class="input-box">
-                                        <div class="input-text">
-                                            <i class="fas fa-lock"></i> Password
-                                            <i class="fa fa-asterisk"></i>
-                                        </div>
-                                        <input class="input" type="password" name="password" required>
-                                    </div>
+                                <input class="input" type="text" name="username" required>
+                            </div>
+                            <!-- Password -->
+                            <div class="input-box">
+                                <div class="input-text">
+                                    <i class="fas fa-lock"></i> Password
+                                    <i class="fa fa-asterisk"></i>
                                 </div>
-                                <!--Eduaction Info Area-->
-                                <div class="col-sm-12">
-                                    <div id="choices">
-                                        <select class="selection" name="education-question" id="">
-                                            <option value="choice-0">EDUCATION LEVEL</option>
-                                            <option value="choice-1">No Formal Education</option>
-                                            <option value="choice-2">Primary Education</option>
-                                            <option value="choice-3">High School</option>
-                                            <option value="choice-4">Vocational Qualification</option>
-                                            <option value="choice-5">Bachelor's Degree</option>
-                                            <option value="choice-5">Master's Degree</option>
-                                            <option value="choice-5">Doctorate or Higher</option>
-                                        </select>
-                                    </div>
+                                <input class="input" type="password" name="password" required>
+                            </div>
+                            <!--Eduaction Info Area-->
+                            <div id="choices">
+                                <select class="selection" name="education-question" id="">
+                                    <option value="choice-0">EDUCATION LEVEL</option>
+                                    <option value="choice-1">No Formal Education</option>
+                                    <option value="choice-2">Primary Education</option>
+                                    <option value="choice-3">High School</option>
+                                    <option value="choice-4">Vocational Qualification</option>
+                                    <option value="choice-5">Bachelor's Degree</option>
+                                    <option value="choice-5">Master's Degree</option>
+                                    <option value="choice-5">Doctorate or Higher</option>
+                                </select>
+                            </div>
+                            <!--Security Question Selection Area-->
+                            <div id="choices">
+                                <select class="selection" name="security-question" id="">
+                                    <option value="choice-0">SECURITY QUESTION</option>
+                                    <option value="choice-1">What is the name of your first pet?</option>
+                                    <option value="choice-2">What is the name of your last school?</option>
+                                    <option value="choice-3">What is the name of your first car?</option>
+                                    <option value="choice-4">What is the name of your mother?</option>
+                                    <option value="choice-5">What is the name of your first phone?</option>
+                                </select>
+                            </div>
+                            <div class="input-box">
+                                <div class="input-text">
+                                    <i class="fa fa-shield"></i> Answer here
+                                    <i class="fa fa-asterisk"></i>
                                 </div>
-
-                                <!--Security Question Selection Area-->
-                                <div class="col-sm-12">
-                                    <div id="choices">
-                                        <select class="selection" name="security-question" id="">
-                                            <option value="choice-0">SECURITY QUESTION</option>
-                                            <option value="choice-1">What is the name of your first pet?</option>
-                                            <option value="choice-2">What is the name of your last school?</option>
-                                            <option value="choice-3">What is the name of your first car?</option>
-                                            <option value="choice-4">What is the name of your mother?</option>
-                                            <option value="choice-5">What is the name of your first phone?</option>
-                                        </select>
-                                    </div>
-                                    <div class="input-box">
-                                        <div class="input-text">
-                                            <i class="fa fa-shield"></i> Answer here
-                                            <i class="fa fa-asterisk"></i>
-                                        </div>
-                                        <input class="input" type="text" name="security-q" required>
-                                    </div>
-                                </div>
+                                <input class="input" type="text" name="security-q" required>
                             </div>
                             <!--Subscription Area-->
                             <div class="row">
@@ -102,29 +91,21 @@
                                 </div>
                             </div>
                             <!--Username & Password Reset Area-->
-                            <div class="row">
-                                <div class="col-sm-12 forgot-area">
-                                    <div class="col-sm-12 text-center">
-                                        <a id="forgot-password" href="#">Forgot Password?</a>
-                                        <a id="forgot-username" href="#">Forgot Username?</a>
-                                    </div>
+                            <div class="forgot-area">
+                                <div class="text-center">
+                                    <a id="forgot-password" href="#">Forgot Password?</a>
+                                    <a id="forgot-username" href="#">Forgot Username?</a>
                                 </div>
                             </div>
                         </form>
                     </div>
                 </div>
-            </div>
         </div>
-        <div class="col-2">
-            <!--Copy right & Contact Information Area-->
-            <div class="copy-right col-4">
-                <div class="input-text ">
-                    <cite>&copy;amarBessedik</cite>
-                    <br>
-                    <cite>- June 2018</cite>
-                    <hr>
-                    <cite>amar.bessedik@gmail.com</cite>
-                </div>
+
+        <div class="col-sm-12 col-md-2">
+            <div class="col-2 input-text">
+                <cite>Code&amp;Succeed</cite>
+                <cite>Bessedik</cite>
             </div>
         </div>
     </div>
