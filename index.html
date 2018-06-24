@@ -382,20 +382,17 @@
      <!--Toggle navbar up & down-->
     <script>
         /* Slide the navbar up when a menu link is clicked*/
-        jQuery(document).ready(function ($) {
-            $('#toggle-menu li a').on("click", function () {
+            $("#toggle-menu li a").on("click", function () {
                 $('#navbar-togg').slideUp();
             });
-        });
     </script>
     
     <script>
         /* Toggle the navbar up & down */
-        $(document).ready(function () {
-            $("button").click(function () {
+            $("button").on("click", function () {
                 $("#navbar-togg").toggle();
             });
-        });
+
     </script>
     <!--Smoth scrolling-->
     <script>
