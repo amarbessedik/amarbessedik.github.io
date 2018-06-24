@@ -40,12 +40,12 @@
     <!--Navigation-->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
         <!-- using jQuery to toggle the navbar when at small screen-->
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#" aria-controls="navbarsExampleDefault"
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#" aria-controls="#navbar-togg"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbar-toggler">
+        <div class="collapse navbar-collapse" id="navbar-togg">
             <ul class="navbar-nav ml-auto padding-right">
                 <li class="nav-item active">
                     <a class="nav-link" href="#top1"><i class="fa fa-home fa-fw"></i> Home
@@ -382,7 +382,7 @@
         /* Slide the navbar up when a menu link is clicked*/
         jQuery(document).ready(function ($) {
             $('#toggle-menu li a').on("click", function () {
-                $('#navbar-toggler').slideUp();
+                $('#navbar-togg').slideUp();
             });
         });
     </script>
@@ -391,7 +391,7 @@
         /* Toggle the navbar up & down */
         $(document).ready(function () {
             $("button").click(function () {
-                $("#navbar-toggler").toggle();
+                $("#navbar-togg").toggle();
             });
         });
     </script>
