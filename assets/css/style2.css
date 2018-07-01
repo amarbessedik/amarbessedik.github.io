@@ -56,70 +56,81 @@ a:hover{
     margin-right:1rem;
   }
 
-
 li:hover{
     background: rgb(153, 167, 167);
 }
+
 li a:hover, ul li a:hover{
     color: red;
 }
+
 ul li{
     text-decoration: none;
 }
+
 .coding{
     color: white !important;
     font-size: 80%
 }
+
 .row{
     padding:10px;
 }
+
 .app{
     padding-bottom: 10px;
     text-align: left;
     letter-spacing: 3px;
 }
-.app:hover{
-    border: 1px solid #bb0000;
-    background-color:rgba(215, 219, 224, 0.925); 
-}
+
 .card:hover{
     border: 1px solid #000;
 }
+
 .section-title{
     color: #000;
     text-shadow: 0px 0px 7px rgba(150, 150, 150, 0.8);
     
 }
+
 .project-title{
     color: #000;
     text-shadow: 0px 0px 7px rgba(94, 93, 93, 0.8);
     letter-spacing: 0px
 }
+
 .footer-color{
     background-color: rgb(9, 12, 15);
     color: white !important;
     width: 100%
 }
+
 .padding{
     padding-bottom: 10px;
 }
+
 .about{
     padding: 2rem;
     text-align: justify;
 }
+
 .lead{
     color: rgb(7, 59, 172);
     font-weight: 400;
 }
+
 .fa-github{
     color: #000;
 }
+
 .fa-github:hover{
   color: #bb0000;
 }
+
 .app-symbol{
     font-size: 1.rem;
 }
+
 .fa-thermometer-three-quarters{
     color: #bb0000;
 }
@@ -127,33 +138,41 @@ ul li{
 .fa-road{
     color: darkblue;
 }
+
 .fa-weight{
     color: rgb(190, 140, 13)
 }
+
 .fa-thermometer-three-quarters, .fa-road, .fa-weight{
     font-size: 2.5rem; 
 }
+
 .well1{
     letter-spacing: 8px;
     text-transform: uppercase;
 }
+
 .blog{
   color: #bb0000;
 }
+
 .btn:hover{
  color: #000;
  background: none;
  border: 1px solid #000;
  font-weight: bold;
 }
+
 th{
     font-weight: 700;
 }
+
 @media(min-width:950px){
     p, .lead{
         font-size: 100%;
     }
 }
+
 @media(max-width:976px){
     p, .lead{
         font-size: 90%
@@ -171,6 +190,7 @@ th{
         font-size: 20px;
     }
 }
+
 @media(max-width:820px){
     .navbar{
         font-size: 14px;
@@ -182,6 +202,7 @@ th{
         font-size:100%;
 }
 }
+
 @media(max-width:600px){
     .navbar{
         font-size: 13px;
@@ -190,6 +211,7 @@ th{
         font-size:100%;
     }
 }
+
 @media(max-width:500px){
     h4{
         font-size: 120%;
