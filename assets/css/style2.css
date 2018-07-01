@@ -13,23 +13,28 @@ body{
     height: 100%;
     background-color: #fff;
 }
+
 a:hover{
     text-decoration: none;
 }
+
 .container{
     box-shadow: 1px 1px 10px rgb(161, 161, 161);
     
 }
+
 .jumbotron{
     background-color: rgb(1, 13, 27);
     box-shadow: 1px 1px 2px rgb(39, 47, 54)
 }
+
 .welcome, ul>li{
     color: #fff;
 }
 .shadow{
     box-shadow: 1px 1px 50px rgb(27, 37, 56);
 }
+
 .section-links{
     background-color: rgb(1, 7, 14);
 }
@@ -76,6 +81,9 @@ ul li{
 .app:hover{
     border: 1px solid #bb0000;
     background-color:rgba(215, 219, 224, 0.925); 
+}
+.card:hover{
+    border: 1px solid #000;
 }
 .section-title{
     color: #000;
