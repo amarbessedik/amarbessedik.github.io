@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" id="top"> 
-   
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,392 +13,457 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
     <script src="./assets/js/script.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style2.css" />
-    <style>
-        .back-to-top {
-            background: none;
-            margin: 0;
-            position: fixed;
-            bottom: 0;
-            right: 0;
-            width: 70px;
-            height: 70px;
-            z-index: 1;
-            display: none;
-            text-decoration: none;
-            color: #444;
-        }
-
-        .fa-arrow-circle-up{
-            font-size: 3rem;
-        }
-    </style>
 </head>
 
-<body id="top1">
-    <!--Navigation-->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
-        <!-- using jQuery to toggle the navbar when at small screen-->
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#" aria-controls="#navbar-togg"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<body>
+    <div class="container-fluid m-0 p-0">
+        <!--Navigation-->
+        <nav class="navbar navbar-expand-sm bg-light navbar-default fixed-top">
+            <button class="navbar-toggler navbar-dark bg-dark ml-auto" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbar-togg">
-            <ul class="navbar-nav ml-auto padding-right" id="toggle-menu">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#top1"><i class="fa fa-home fa-fw"></i> Home
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#java_projects" class="nav-link responsive"><i class="fas fa-sitemap"></i> Java Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#web_dev" class="nav-link"><i class="fas fa-globe"></i> Web Dev/Design</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#lisp_ml"><i class="fas fa-terminal"></i> Lisp/ML</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./datastructures.html"><i class="fab fa-codepen"></i> Data Structures</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./algorithms.html"><i class="fas fa-list"></i> Algorithms</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./blog.html" target="_blank"><i class="fas fa-coffee"></i> Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./about.html"><i class="fas fa-edit"></i> About</a>
-                </li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ml-auto padding-right">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#top1"><i class="fa fa-home fa-fw"></i> Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#java_projects" class="nav-link responsive"><i class="fas fa-sitemap"></i> Java Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#web_dev" class="nav-link"><i class="fas fa-globe"></i> Web Dev/Design</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lisp_ml"><i class="fas fa-terminal"></i> Lisp/ML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./datastructures.html"><i class="fab fa-codepen"></i> Data Structures</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./algorithms.html"><i class="fas fa-list"></i> Algorithms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./blog.html" target="_blank"><i class="fas fa-coffee"></i> Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html"><i class="fas fa-edit"></i> About</a>
+                    </li>
+                </ul>
 
-        </div>
-    </nav>
-    <!--back-to-top-button-->
-    <a href="./index.html" class="back-to-top" style="display: inline;">
-        <i class="fa fa-arrow-circle-up text-center"></i>
-    </a>
-    <!--main content-->
-    <div class="container">
+            </div>
+        </nav>
+        <!--back-to-top-button-->
+        <a href="./index.html" class="back-to-top" style="display: inline;">
+            <i class="fa fa-arrow-circle-up text-center"></i>
+        </a>
+        <!--main content-->
         <!--Welcome-->
-        <div class="jumbotron welcome">
-            <br>
-            <br>
-            <h4 class="welcome well1 text-center">
-                Welcome to my Website
+        <div class="jumbotron">
+            <h4 class="well1 text-center m-4 p-4">
+                Welcome
+                <br><br>
             </h4>
-            <code class="welcome">Learning to do &amp; doing to learn! </code>
-            <badge class="badge badge-pill">- Amar Bessedik</badge>
         </div>
-        <!--My Interests-->
-        <section id="intrests">
-            <div class="container-fluid">
-                <h4 class="section-title">My Areas of Interest</h4>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-3 padding text-center">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="section-title">Software Engineering</h5>
-                                <p>I will populate this as soon as my blog is up and running.</p>
-                                <a href="./blog.html" class="btn btn-outline-secondary btn-md github-btn" target="_blank">Blog Post</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-3 padding text-center">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="section-title">Web Technologies</h5>
-                                <p>I will populate this as soon as my blog is up and running.</p>
-                                <a href="./blog.html" class="btn btn-outline-secondary btn-md github-btn" target="_blank">Blog Post</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-3 padding text-center">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="section-title">Mobile development</h5>
-                                <p>I will populate this as soon as my blog is up and running.</p>
-                                <a href="./blog.html" class="btn btn-outline-secondary btn-md github-btn" target="_blank">Blog Post</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-3 padding text-center">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="section-title">Database Systems</h5>
-                                <p>I will populate this as soon as my blog is up and running.</p>
-                                <a href="./blog.html" class="btn btn-outline-secondary btn-md github-btn" target="_blank">Blog Post</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Web Dev/Design-->
-        <hr>
-        <section id="web_dev">
-            <div class="container-fluid">
-                <h4 class="section-title">Web Dev/Design Activities</h4>
-                <p>This section features some of my web apps designed using HTML5, CSS3, JavaScript, Bootstrap 4 and some jQuery.
-                    They are intended to show design &amp; functionality. Click and try them, the code is on Github and it
-                    is free to use and/or modify.</p>
-                <div class="row">
-                    <div class="col-sx-12 col-sm-12 col-md-4 text-center padding">
-                        <a href="./assets/apps/temperature/temperature.html">
-                            <div class="card">
-                                <div class="card-body">
-                                    <p>convert
-                                        <i class="fas fa-thermometer-three-quarters text-center"></i>
-                                    </p>
-                                    <p class="app-symbol app text-center">temperature</p>
+        <div class="container-fluid p-0 m-0">
+            <div class="row content">
+                <!--Side Navigation-->
+                <div class="col-sm-12 col-md-3 sidenav pt-1 pl-0 ml-0 pr-0 mr-0">
+                    <section id="intrests">
+                        <div class="container-fluid">
+                            <h4 id="interests" class="section-title">Technology Interests</h4>
+                            <hr>
+                            <div class="row">
+                                <div class="col-12 padding text-center">
+                                    <div class="card side-card">
+                                        <div class="card-body">
+                                            <h5 class="section-title">Frontend Web Technologies</h5>
+                                            <p>The front end of a website is the part that users interact with. Everything
+                                                that you see when you're ...</p><br>
+                                            <a href="./blog.html" class="btn btn-outline-secondary btn-md github-btn" target="_blank">Blog
+                                                Post
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 padding text-center">
+                                    <div class="card side-card">
+                                        <div class="card-body">
+                                            <h5 class="section-title">Backend Web Technologies</h5>
+                                            <p maxlength="10">The backend of a web application is an enabler for a frontend
+                                                experience. Backend code is run on the server, ...</p>
+                                            <a href="./blog.html" class="btn btn-outline-secondary btn-md github-btn" target="_blank">Blog
+                                                Post
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 padding text-center">
+                                    <div class="card side-card">
+                                        <div class="card-body">
+                                            <h5 class="section-title">Tools & Frameworks</h5>
+                                            <p>The backend frameworks consist of languages and tools used in server-side
+                                                programming in a web application. Whereas the frontend frameworks...</p>
+                                            <a href="./blog.html" class="btn btn-outline-secondary btn-md github-btn" target="_blank">Blog
+                                                Post
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 padding text-center">
+                                    <div class="card side-card">
+                                        <div class="card-body">
+                                            <h5 class="section-title">Databases</h5>
+                                            <p>A database is a collection of information that is organized so that it can
+                                                be easily accessed, managed and updated. Data is organized into rows, col...</p>
+                                            <a href="./blog.html" class="btn btn-outline-secondary btn-md github-btn" target="_blank">Blog
+                                                Post
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </a>
-                        <br>
-                        <a href="https://github.com/amarbessedik-developer" class="btn btn-outline-secondary btn-md github-btn" target="_blank">Code on Github
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                    <div class="col-sx-12 col-sm-12 col-md-4 padding text-center">
-                        <a href="./assets/apps/distance/distance.html" target="_blank">
-                            <div class="card">
-                                <div class="card-body">
-                                    <p>convert
-                                        <i class="fas fa-road text-center"></i>
-                                    </p>
-                                    <p class="app-symbol app text-center">distance</p>
+                        </div>
+                    </section>
+                </div>
+                <!--Main Content -->
+                <div class="col-sm-12 col-md-9 pl-0 ml-0 pr-0 mr-0">
+                    <!--Web Dev/Design-->
+                    <section id="web_dev">
+                        <div class="container-fluid">
+                            <h4 class="section-title">Web Dev/Design Activities</h4><br>
+                            <p>This section features some of my web apps designed using HTML5, CSS3, JavaScript, Bootstrap
+                                4 and some jQuery. They are intended to show design &amp; functionality. Click and try them,
+                                the code is on Github and it is free to use and/or modify.</p><br>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 padding text-center justify-content-center">
+                                    <div class="card side-card">
+                                        <div class="card-body">
+                                            <p>convert
+                                                <i class="fas fa-thermometer-three-quarters text-center"></i>
+                                            </p>
+                                            <a href="./assets/apps/temperature/temperature.html"><p class="app-symbol app text-center">TEMPERATURE</p></a>
+                                        </div>
+                                    </div>
+
+                                    <br>
+                                    <a href="https://github.com/amarbessedik-developer" class="btn btn-outline-secondary btn-md github-btn" target="_blank">Code
+                                        on Github
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-4 padding text-center justify-content-center">
+                                    <div class="card side-card">
+                                        <div class="card-body">
+                                            <p>convert
+                                                <i class="fas fa-road text-center"></i>
+                                            </p>
+                                            <a href="./assets/apps/distance/distance.html"><p class="app-symbol app text-center">DISTANCE</p></a>
+                                        </div>
+                                    </div>
+
+                                    <br>
+                                    <a href="https://github.com/amarbessedik-developer" class="btn btn-outline-secondary btn-md github-btn" target="_blank">Code
+                                        on Github
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-4 padding text-center justify-content-center">
+                                    <div class="card side-card">
+                                        <div class="card-body">
+                                            <p>convert
+                                                <i class="fas fa-weight text-center"></i>
+                                            </p>
+                                            <a href="./assets/apps/weight/weight.html"><p class="app-symbol app text-center">WEIGHT</p></a>
+                                        </div>
+                                    </div>
+
+                                    <br>
+                                    <a href="https://github.com/amarbessedik-developer" class="btn btn-outline-secondary btn-md github-btn" target="_blank">Code
+                                        on Github
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 padding text-center justify-content-center">
+                                    <div class="card side-card">
+                                        <div class="card-body">
+                                            <p>
+                                                <i class="fas fa-globe text-center"></i>
+                                            </p>
+                                            <a href="./assets/apps/parallax/index.html"><p class="app-symbol app text-center">PARALLAX</p></a>
+                                        </div>
+                                    </div>
+
+                                    <br>
+                                    <a href="https://github.com/amarbessedik-developer" class="btn btn-outline-secondary btn-md github-btn" target="_blank">Code
+                                        on Github
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-4 padding text-center justify-content-center">
+                                    <div class="card side-card">
+                                        <div class="card-body">
+                                            <p>
+                                                <i class="fas fa-globe text-center"></i>
+                                            </p>
+                                            <a href="./assets/apps/animated/index.html"><p class="app-symbol app text-center">ANIMATED</p></a>
+                                        </div>
+                                    </div>
+
+                                    <br>
+                                    <a href="https://github.com/amarbessedik-developer" class="btn btn-outline-secondary btn-md github-btn" target="_blank">Code
+                                        on Github
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+
+                                <div class="col-sm-12 col-md-4 padding text-center justify-content-center">
+                                    <div class="card side-card">
+                                        <div class="card-body">
+                                            <p>
+                                                <i class="fas fa-globe text-center"></i>
+                                            </p>
+                                            <a href="./assets/apps/photography-app/index.html"><p class="app-symbol app text-center">PHOTOGRAPHY</p></a>
+                                        </div>
+                                    </div>
+
+                                    <br>
+                                    <a href="https://github.com/amarbessedik-developer" class="btn btn-outline-secondary btn-md github-btn" target="_blank">Code
+                                        on Github
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--Java Projects-->
+                    <section id="java_projects">
+                        <div class="container-fluid">
+                            <h4 class="section-title">General Purpose Programming (JAVA)</h4><br>
+                            <p>This section features four programming projects where some moderate to intensive programming
+                                was needed using the object oriented paradigm. I chose these because they required some thinking
+                                before diving into coding. I am aware that I could think deffirently now as I got exposure
+                                to asymptotic analysis of programs (Famous big O, big &Theta; &amp; big &Omega;); but overall
+                                it's been a rewarding experience for me while thinking about how the classes should be designed
+                                to interact with each other so that the problems can be solved and give back the desired
+                                results.
+                            </p><br>
+                            <div class="row">
+                                <div class="col-12 padding text-center justify-content-center mb-3">
+                                    <div class="card side-card">
+                                        <div class="card-body">
+                                            <a href="./assets/projects/enigma/PROJECT DESCRIPTION.pdf"><h4 class="project-title">Encryption/Security
+                                                    (The Enigma Machine)</h4></a>
+                                            <p class="text-left">
+                                                Encrypting and decrypting text files using a software-simulated Enigma Machine without the plugboard (A WWII German Encryption
+                                                Machine). The encryption as well as decryption goes through a process of
+                                                7 stages simulating a series of 6 rotors and a reflector each with the 26
+                                                letters of the alphabet. A particular setting of rotor positions determines
+                                                how encrypting or decrypting is carried out.
+                                            </p>
+                                        </div>
+                                        <br>
+                                        <a href="https://github.com/amarbessedik-developer" class="btn btn-outline-secondary btn-md github-btn" target="_blank">View
+                                            Code on Github
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-12 padding text-center justify-content-center mb-3">
+
+                                    <div class="card side-card">
+                                        <div class="card-body">
+                                            <a href="./assets/projects/train/"><h4 class="project-title">Relational Databases
+                                                    (Train Ticket Reservation System)</h4></a>
+                                            <p class="text-left">
+                                                The System is designed following a use-case oriented architecture and implemented following an object-oriented approach (using
+                                                Java) where different actors (roles) (passenger, conductor, cashier.) trigger
+                                                different scenarios (actions and reactions). A typical scenario would be
+                                                when a traveler (The passenger: use-case) requests a ticket, the system (The
+                                                cashier: use-case) checks for availability with regards to time, departure
+                                                location, destination location, and seat availability. If a ticket is available,
+                                                a reservation is made. At the time of boarding, the traveler presents the
+                                                ticket and the system (The conductor: use-case) verifies its validity. If
+                                                the ticket is valid, the traveler boards the train to destination. When conditions
+                                                are not satisfied, handlers to those events are also implemented. The system
+                                                is backed with a MySQL database for CRUD operations.
+                                            </p>
+                                        </div>
+                                        <br>
+                                        <a href="https://github.com/amarbessedik-developer" class="btn btn-outline-secondary btn-md github-btn" target="_blank">View
+                                            Code on Github
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
 
                                 </div>
-                            </div>
-                        </a>
-                        <br>
-                        <a href="https://github.com/amarbessedik-developer" class="btn btn-outline-secondary btn-md github-btn text-center" target="_blank">Code on Github
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                    <div class="col-sx-12 col-sm-12 col-md-4 padding text-center">
-                        <a href="./assets/apps/weight/weight.html" target="_blank">
-                            <div class="card">
-                                <div class="card-body">
-                                    <p>convert
-                                        <i class="fas fa-weight text-center"></i>
-                                    </p>
-                                    <p class="app-symbol app text-center">weight</p>
-                                </div>
-                            </div>
-                        </a>
-                        <br>
-                        <a href="https://github.com/amarbessedik-developer" class="btn btn-outline-secondary btn-md github-btn text-center" target="_blank">Code on Github
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sx-12 col-sm-12 col-md-4 padding text-center">
-                        <a href="./assets/apps/animated/index.html" target="_blank">
-                            <div class="card">
-                                <div class="card-body">
-                                    <p class="app">Animated Theme</p>
-                                    <p><i class="fas fa-globe"></i></p>
-                                </div>
-                            </div>
-                        </a>
-                        <br>
-                        <a href="https://github.com/amarbessedik-developer" class="btn btn-outline-secondary btn-md github-btn text-center" target="_blank">Code on Github
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                    <div class="col-sx-12 col-sm-12 col-md-4 padding text-center">
-                        <a href="./assets/apps/parallax/index.html" target="_blank">
-                            <div class="card">
-                                <div class="card-body">
-                                    <p class="app">Parallax Theme</p>
-                                    <p><i class="fas fa-globe"></i></p>
-                                </div>
-                            </div>
-                        </a>
-                        <br>
-                        <a href="https://github.com/amarbessedik-developer" class="btn btn-outline-secondary btn-md github-btn text-center" target="_blank">Code on Github
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                    <div class="col-sx-12 col-sm-12 col-md-4 padding text-center">
-                        <a href="./assets/apps/subscription/registration/subscribe.html" target="_blank">
-                            <div class="card">
-                                <div class="card-body">
-                                    <p class="app">Subscription Form</p>
-                                    <p><i class="fas fa-globe"></i></p>
-                                </div>
-                            </div>
-                        </a>
-                        <br>
-                        <a href="https://github.com/amarbessedik-developer" class="btn btn-outline-secondary btn-md github-btn text-center" target="_blank">Code on Github
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <hr>
-        <!--Java Projects-->
-        <section id="java_projects">
-            <div class="container-fluid">
-                <h4 class="section-title">Java Programming Projects</h4>
-                <p>This section features three programming projects where some moderate to intensive programming 
-                    was needed using the object oriented paradigm. I chose these  because they required some 
-                    thinking before diving into coding. I am aware that I could think differently now as I got 
-                    exposure to asymptotic analysis of programs (Famous big O, big &Theta; &amp; big &Omega;); but overall 
-                    it's been a rewarding experience for me while thinking about how the classes should be designed to interact with 
-                    each other so that the problems can be solved and get back the desired results.</p>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-4 padding text-center">
-                        <a href="./assets/projects/enigma/PROJECT DESCRIPTION.pdf">
-                            <div class="card">
-                                <div class="card-body">
-                                    <p class="project-title">WWII German Enigma Machine</p>
-                                    <p class="text-left">Coding &amp; decoding secret messages and how to detect "English" in coded text files using Enigma</p>
-                                </div>
-                            </div>
-                        </a>
-                        <br>
-                        <a href="https://github.com/amarbessedik-developer" class="btn btn-outline-secondary btn-md github-btn" target="_blank">Code on Github
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-4 padding text-center">
-                        <a href="./assets/projects/train/">
-                            <div class="card">
-                                <div class="card-body">
-                                    <p class="project-title">Train Ticket Reservation System</p>
-                                    <p class="text-left">Content will be added soon</p>
-                                </div>
-                            </div>
-                        </a>
-                        <br>
-                        <a href="https://github.com/amarbessedik-developer" class="btn btn-outline-secondary btn-md github-btn" target="_blank">Code on Github
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-4 padding text-center">
-                        <a href="./assets/projects/kruskal/Kruskal's Report.pdf">
-                            <div class="card">
-                                <div class="card-body">
-                                    <p class="project-title"> <abbr title="Minimum Spanning Trees">MSTs</abbr> using Kruskal's Algorthim</p>
-                                    <p class="text-left">Content will be added soon.</p>
-                                </div>
-                            </div>
-                        </a>
-                        <br>
-                        <a href="https://github.com/amarbessedik-developer" class="btn btn-outline-secondary btn-md github-btn" target="_blank">Code on Github
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Lisp/ML-->
-        <section id="lisp_ml">
-                <div class="container-fluid">
-                        <h4 class="section-title">Functional Programming using Lisp &amp; ML </h4>
-                        <p>This section exposes two practical exercises using the functional programming paradigm. 
-                            The first is Hoffman Coding using Lisp and the second is solving <abbr title="Conjunctive Normal Forms">CNFs</abbr> with the ML programming language.</p>
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-6 padding text-center">
-                                <a href="#">
-                                    <div class="card">
+                                <div class="col-12 padding text-center justify-content-center mb-3">
+                                    <div class="card side-card">
                                         <div class="card-body">
-                                            <p class="project-title">Hoffman Coding in LISP</p>
-                                            <p><i class="fas fa-terminal"></i></p>
-                                            <p> Content will be added soon!</p>
+                                            <a href="#"> <h4 class="project-title"> Face Detection/Emotion Detection</h4></a>
+                                            <p class="text-left">
+                                                An Android application that allows a user to upload or take a picture of a human face. After this initial phase, the file
+                                                is sent to a Face & Emotions detection API (Used the Microsoft Azure Platform).
+                                                Once processing is complete by the API, results will be sent back to the
+                                                user for display (in JSON). Among the results are: (1) clear detection of
+                                                the face (if it belongs to a human and it is visible) by placing a colored
+                                                rectangle around it, (2) Emotions detected from the face such as happiness,
+                                                anger, fear, neutrality, ...etc.
+                                            </p>
                                         </div>
+                                        <br>
+                                        <a href="https://github.com/amarbessedik-developer" class="btn btn-outline-secondary btn-md github-btn" target="_blank">View
+                                            Code on Github
+                                            <i class="fab fa-github"></i>
+                                        </a>
                                     </div>
-                                </a>
-                                <hr>
-                                <a href="https://github.com/amarbessedik-developer" class="btn btn-outline-secondary btn-md github-btn" target="_blank">More Details
-                                    <i class="fas fa-terminal"></i>
-                                </a>
-                            </div>
-                            <div class="col-xs-12 col-sm-12 col-md-6 padding text-center">
-                                <a href="#">
-                                    <div class="card">
+                                </div>
+                                <div class="col-12 padding text-center justify-content-center mb-3">
+                                    <div class="card side-card">
                                         <div class="card-body">
-                                            <p class="project-title">Solving CNFs in ML</p>
-                                            <p><i class="fas fa-terminal"></i></p>
-                                            <p> Content will be added soon!</p>
+                                            <a href="#"> <h4 class="project-title"> Minimum Spanning Trees (Kruskal's Algorithm)</h4></a>
+                                            <p class="text-left">
+                                                This project solves the Minimum Spanning Tree (MST) problem using Kruskal’s Algorithm with path compression. To achieve our
+                                                goal, data for weighted graphs with (n) vertices and (m) edges are given
+                                                in text files. An MST, if it exists, is a subgraph containing (n – 1) edges
+                                                such that when their weights are added together, they give the minimum possible
+                                                cost needed to visit all vertices exactly once without creating any cycles.
+                                                An MST is not possible to compute if the graph is not connected as the algorithm
+                                                runs out of edges to consider before satisfying the above condition. The
+                                                implementation of Kruskal’s algorithm uses a disjoint-set data structure
+                                                implemented using an array of integers called “sets”. In this data structure
+                                                at start, the cell at index “i” is the single representative (or label) of
+                                                the element “i”. Thus, we make (n) disjoint subsets where one of them contains
+                                                one single vertex. As the subsets merge together, if the index “i” is not
+                                                the representative of its subset, we go through the subsets until we find
+                                                its representative. Once this operation is achieved, we proceed to path.
+                                                The compression of the path that led to our target can be achieved by introducing
+                                                a caching mechanism into the find operation where all elements in the path
+                                                to the representative will, after that, point to the target label. This way
+                                                it speeds up the subsequent find operations and speeds up the overall running
+                                                time of Kruskal’s algorithm. At the end, if an MST is computed, all edges
+                                                that make it will be displayed along with their total weight.
+                                            </p>
                                         </div>
+                                        <br>
+                                        <a href="https://github.com/amarbessedik-developer" class="btn btn-outline-secondary btn-md github-btn" target="_blank">View
+                                            Code on Github
+                                            <i class="fab fa-github"></i>
+                                        </a>
                                     </div>
-                                </a>
-                                <hr>
-                                <a href="https://github.com/amarbessedik-developer" class="btn btn-outline-secondary btn-md github-btn" target="_blank">More Deatils
-                                    <i class="fas fa-terminal"></i>
-                                </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-        </section>
+                    </section>
+
+                    <!--Lisp/ML-->
+                    <section id="lisp_ml">
+                        <div class="container-fluid">
+                            <h4 class="section-title">Functional Programming (Lisp &amp; ML) </h4><br>
+                            <p>This section exposes two practical exercises using the functional programming paradigm. The
+                                first is Hoffman Coding using Lisp and the second is solving <abbr title="Conjunctive Normal Forms">CNFs</abbr>
+                                with the ML programming language.</p><br>
+                            <div class="row">
+                                <div class="col-12 padding text-center mb-3">
+
+                                    <div class="card side-card">
+                                        <div class="card-body">
+                                            <a href="#"><p class="project-title">Hoffman Coding in LISP</p></a>
+                                            <p><i class="fas fa-terminal"></i></p>
+                                            <p class="text-left">
+                                                In this project, the Huffman coding algorithm, which is a divide and conquer approach, is used to encode a message into binary
+                                                code and decode the binary back to the original message. In order to achieve
+                                                this, a Huffman Tree is constructed using the frequency list of the content
+                                                of the message. Generating the frequency list requires counting the occurrence
+                                                of each symbol (or its weight) in the original message and pair each count
+                                                with its corresponding symbol. After this first phase, every pair is put
+                                                in a list and the entire list in a list itself; then sort the whole thing
+                                                in increasing order of weight. This way, we now have a list of Huffman sub-trees
+                                                (sub-htrees). The objective is to compress data using variable length coding
+                                                rather than fixed length coding all in a lossless manner
+                                            </p>
+                                        </div>
+                                        <br>
+                                        <a href="https://github.com/amarbessedik-developer" class="btn btn-outline-secondary btn-md github-btn" target="_blank">View
+                                            Code on Github
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-12 padding text-center mb-3">
+
+                                    <div class="card side-card">
+                                        <div class="card-body">
+                                            <a href="#"> <p class="project-title">Solving CNFs in ML</p></a>
+                                            <p><i class="fas fa-terminal"></i></p>
+                                            <p class="text-left">
+                                                This project intended to compute the conjunctive normal form "cnf" of a sentential logic. It implements a datatype called
+                                                "sentence" and logical connectives. In order to get the cnf of a sentence,
+                                                function in the program the following: remove arrows, distribute negeation,
+                                                distribute disjunction in conjunction, and finally print the results out.
+                                            </p>
+                                        </div>
+                                        <br>
+                                        <a href="https://github.com/amarbessedik-developer" class="btn btn-outline-secondary btn-md github-btn" target="_blank">View
+                                            Code on Github
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <br><br>
+                </div>
+            </div>
+        </div>
     </div>
     <!--footer-->
     <footer>
         <div class="container-fluid footer-color">
-            <div class="row">
-                <div class="col-sm-12 col-md-4 text-center">
+            <div class="row text-center">
+                <div class="col-md-4">
                     <hr class="light">
-                    <h5> <span class="fa-stack"><i class="fas fa-address-card"></i></span> Contact
+                    <h5 class="upper"> <span class="fa-stack"><i class="fas fa-address-card"></i></span> CONTACT
                     </h5>
                     <p><i class="fa fa-envelope"></i> amar.bessedik@gmail.com</p>
-                </div>
 
-                <div class="col-sm-12 col-md-4 text-center">
-                    <hr class="light">
-                    <h5> <span class="fa-stack"><i class="fas fa-briefcase"></i></span> Interests &amp; Career Goals</h5>
-                    <hr class="light">
-                    <p>Software Engineering</p>
-                    <p>Web Technologies</p>
-                    <p>Database Systems</p>
-                    <p>Mobile Developement</p>
                 </div>
-               
-               <div class="col-sm-12 col-md-4">
-                 <br>
-                 <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="amarbessedik">
-                    <a class="LI-simple-link" href='https://www.linkedin.com/in/amarbessedik?trk=profile-badge'>AMAR BESSEDIK</a>
-                 </div>
-               </div>
-            </div>
-           <div class="row text-center">
-                 <div class="col-12">
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5 class="upper"> <span class="fa-stack"><i class="fas fa-briefcase"></i></span> INTERESTS &amp; CAREER
+                        GOALS
+                    </h5>
+                    <hr class="light">
+
+                    <p class="upper">WEB TECHNOLOGIES</p>
+                    <p class="upper">DATABASE SYSTEMS</p>
+                    <P class="upper">&amp; EVERYTHING THAT A COMPUTER CAN DO!</P>
+
+                </div>
+                <div class="col-12">
                     <hr class="light-100">
                     <h5>&copy; amarBessedik 2018</h5>
-                    <h5><span class="fa-stack">
+
+                    <h5 class="spacing"><span class="fa-stack">
                             <i class="fa fa-globe"></i>
-                            </span>
+                        </span>
                         Northeastern United States
                     </h5>
                 </div>
-           </div>
+            </div>
         </div>
-    </footer>  
-<!--   jQuery link  -->
-<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-     <!--Toggle navbar up & down-->
-    <script>
-        /* Slide the navbar up when a menu link is clicked*/
-            $("#toggle-menu li a").on("click", function () {
-                $('#navbar-togg').slideUp();
-            });
-    </script>
-    
-    <script>
-        /* Toggle the navbar up & down */
-            $("button").on("click", function () {
-                $("#navbar-togg").toggle();
-            });
-
-    </script>
+    </footer>
     <!--Smoth scrolling-->
     <script>
         $('a[href^="#"]').click(function () {
@@ -456,6 +521,5 @@
 
     </script>
 </body>
-
 
 </html>
