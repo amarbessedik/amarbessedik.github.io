@@ -21,12 +21,19 @@ body {
     padding-top: 6em;
 }
 
+.container {
+    margin: auto;
+    background: rgba(233, 232, 232, 0.534);
+    border-radius: 10px;
+}
+
 a:hover {
     text-decoration: none;
 }
 
 .card {
     box-shadow: 0 0 1px #000;
+    color: #666
 }
 
 section {
@@ -133,12 +140,13 @@ a::after {
 }
 
 .section-title, .project-title {
-    color: #000;
+    color: #444;
     text-transform: uppercase;
 }
 
 .project-title {
     font-size: 1em;
+    color: #444;
 }
 
 .footer-color {
